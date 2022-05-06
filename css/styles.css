@@ -11,6 +11,20 @@ body {
   min-width: 320px;
 }
 
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+hr {
+  opacity: 0.8;
+  border: 1px solid black;
+}
+
 .header {
   background-image: url(../images/90s-Design-Trends.png);
   max-height: 100px;
@@ -715,7 +729,7 @@ a:visited {
 }
 
 label {
-  text-shadow: 1px 2px 0 #d44ab8;
+  text-shadow: 1px 0.7px 0 #d44ab8;
 }
 
 .subtexto {
