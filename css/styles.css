@@ -11,6 +11,15 @@ body {
   min-width: 320px;
 }
 
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
 .header {
   background-image: url(../images/90s-Design-Trends.png);
   max-height: 100px;
