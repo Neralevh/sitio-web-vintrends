@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contacto - Vintrends</title>
+
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="../index.html">
+      <img class="header__logo" src="../images/logo-transp.png" alt="Logo Vintrends">
+    </a>
+
+    <a href="#lateral" class="header__menu">
+      <span class="jam jam-menu"></span>
+    </a>
+
+    <nav class="nav" id="lateral">
+
+      <ul class="nav__lista">
+        <li class="nav__item">
+          <a class="nav__enlace" href="../index.html"><span class="jam jam-home">Inicio</span></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__enlace" href="./musica.html"><span class="jam jam-music">Música</span></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__enlace" href="./peliculas.html"><span class="jam jam-movie">Películas</span></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__enlace" href="./videojuegos.html"><span class="jam jam-joystick">VideoJuegos</span></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__enlace" href="./moda.html"><span class="jam jam-hairdryer">Moda</span></a>
+        </li>
+        <li class="nav__item nav__item--close">
+          <a class="nav__enlace" href="#"><span class="jam jam-close-rectangle-f"></span></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="seccionContacto">
+      <form class="formularioContacto">
+        <h2>Danos tu opinion!</h2>
+        <p class="subtexto">¿Qué queres decirnos? dejanos tus datos y nos comunicamos a la brevedad</p>
+        <hr class="linea" />
+        <label>Nombre Completo:</label>
+        <input class="input" type="text" name="nombre" placeholder="San Google" />
+        <hr class="linea" />
+        <label> Telefono:</label>
+        <input class="input" type="number" name="telefono" placeholder="5411 12345678" />
+        <hr class="linea" />
+        <label> Email:</label>
+        <input class="input" type="email" name="email" placeholder="sumail@hotmail.com" />
+        <hr class="linea" />
+        <label>Genero:</label>
+        <label for="radio_1" class="radio">Masculino</label>
+        <input type="radio" id="radio_1" name="radio" value="Masculino">
+        <label for="radio_2" class="radio">Femenino</label>
+        <input type="radio" id="radio_2" name="radio" value="Femenino">
+        <label for="radio_3" class="radio">Otro</label>
+        <input type="radio" id="radio_3" name="radio" value="Otro">
+        <hr class="linea" />
+        <label> Decinos algo:
+        </label>
+        <textarea class="textarea" name="MultiLine" placeholder="Ingrese su mensaje..."></textarea>
+        <button type="submit" class="boton">Enviar!</button>
+        <hr class="linea" />
+      </form>
+
+
+    </section>
+
+
+  </main>
+  <footer class="footer">
+    <div class="footer__logo">
+      <a href="../index.html">
+        <img class="footer__imagen" src="../images/logo-transp.png" alt="Logo Vintrends" height="50px" width="150px">
+      </a>
+    </div>
+    <div class="redes">
+      <p class="redes__texto">-VISITANOS EN NUESTRAS REDES-</p>
+      <a href="https://www.facebook.com/">
+        <img class="redes__fb" src="../images/icons8-facebook.svg" alt="fb-logo" width="30px" height="30px"></a>
+      <a href="https://www.instagram.com/">
+        <img class="redes__instagram" src="../images/instagram-logo.png" alt="ig-logo" width="30px" height="30px"></a>
+      <a href="https://twitter.com/">
+        <img class="redes__twitter" src="../images/twitter-logo.png" alt="twitter-logo" width="30px" height="30px"></a>
+      <a href="https://www.youtube.com/">
+        <img class="redes__youtube" src="../images/youtube-logo.png" alt="youtube-logo" width="30px" height="30px"></a>
+    </div>
+
+    <div class="newsletter">
+      <form action="#" method="" enctype="#"></form>
+      <label for="newsletter">Subscribite al Newsletter:</label>
+      <input type="email" id="email" placeholder="sumail@blablabla.com" class=" input input--footer">
+      <button type="submit" class="boton boton--footer">Enviar!</button>
+    </div>
+
+    <div class="enlacesIconos">
+      <ul class="listaIconos">
+        <li class="listaIconos__moda"> <a href="./moda.html"><img class="icono__moda" src="../images/ropa-icon.png"
+              alt="ropa-icon" width="30px" height="30px"></a></li>
+        <li class="listaIconos__musica"><a href="./musica.html"><img class="icono__musica"
+              src="../images/auris-icon.png" alt="auris-logo" width="30px" height="30px"></a></li>
+        <li class="listaIconos__peliculas"><a href="./peliculas.html"> <img class="icono__peliculas"
+              src="../images/film-icon.png" alt="carrete-logo" width="30px" height="30px"></a></li>
+        <li class="listaIconos__videojuegos"><a href="./videojuegos.html"><img class="icono__videojuegos"
+              src="../images/joystick-icon.png" alt="joystick-icon" width="30px" height="30px"></a></li>
+      </ul>
+    </div>
+
+    <div class="copyright">
+      <p class="copyright__texto">© 2022 - Todos los derechos reservados. Vintrends.</p>
+    </div>
+
+    <div class="enlacesFooter">
+      <a href="./contacto.html">
+        <li class="enlacesFooter__1">Contáctanos</li>
+      </a>
+      <a href="./proximamente.html">
+        <li class="enlacesFooter__2">Ayuda</li>
+      </a>
+      <a href="./proximamente.html">
+        <li class="enlacesFooter__3">Politica de Privacidad</li>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
