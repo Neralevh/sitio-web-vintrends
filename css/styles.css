@@ -20,6 +20,11 @@ p {
   margin-bottom: 0;
 }
 
+hr {
+  opacity: 0.8;
+  border: 1px solid black;
+}
+
 .header {
   background-image: url(../images/90s-Design-Trends.png);
   max-height: 100px;
