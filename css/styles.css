@@ -25,6 +25,10 @@ hr {
   border: 1px solid black;
 }
 
+vr {
+  width: 5px;
+}
+
 .header {
   background-image: url(../images/90s-Design-Trends.png);
   max-height: 100px;
