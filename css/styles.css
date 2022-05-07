@@ -382,9 +382,9 @@ a:visited {
 
 .articuloPrincipal__subtitulo {
   font-size: 30px;
-  height: 30px;
-  margin-top: 4rem;
-  margin-left: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
 }
 
 .flexInicio {
