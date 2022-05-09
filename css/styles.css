@@ -385,6 +385,8 @@ a:visited {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
+  color: #fdfb76;
+  text-shadow: 2px 2px 0 #e10086;
 }
 
 .flexInicio {
@@ -675,7 +677,7 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 320px;
+  min-width: 318px;
   height: 1000px;
   background-image: url(../images/Mail.png);
   background-size: contain;
@@ -808,6 +810,16 @@ label {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23066466' fill-opacity='0.87'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+.accordion-button--moda {
+  background-image: url(../images/fondoModa2.svg);
+  background-size: contain;
+}
+
+.accordion-body--moda {
+  background-image: url(../images/Shiny\ Overlay.svg);
+  background-size: cover;
+}
+
 @media screen and (max-width: 600px) {
   body {
     min-width: 320px;
@@ -824,7 +836,7 @@ label {
 
   .header {
     flex-direction: row;
-    min-width: 320px;
+    min-width: 318px;
   }
 
   .header__logo {
@@ -875,7 +887,7 @@ label {
     height: 350px;
     margin: 2px;
     border-radius: 3px;
-    min-width: 320px;
+    min-width: 318px;
     overflow: hidden;
   }
 
@@ -920,7 +932,7 @@ label {
   }
 
   .seccion2 {
-    min-width: 320px;
+    min-width: 318px;
     margin: 2px;
     border-radius: 3px;
   }
@@ -955,7 +967,7 @@ label {
   }
 
   .footer {
-    min-width: 320px;
+    min-width: 318px;
     height: 200px;
     margin: 2px;
     margin-bottom: 0;
@@ -1159,6 +1171,7 @@ label {
     margin: 2px;
     border-radius: 3px;
     min-width: 318px;
+    min-height: 800px;
   }
 
   .articuloPrincipal__titulo {
