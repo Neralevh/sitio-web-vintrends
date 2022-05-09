@@ -596,6 +596,7 @@ a:visited {
   background-color: #00db96;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%23113104' fill-opacity='0.73'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
   background-size: auto;
+  min-height: 1000px;
 }
 
 .articuloPrincipal__titulo--juegos {
@@ -607,12 +608,15 @@ a:visited {
 }
 
 .articuloPrincipal__parrafo--juegos {
-  margin-left: 2rem;
+  margin-left: 1rem;
   color: #eadf13;
   text-shadow: 2px 3px 0 #e34121;
   font-size: 25px;
-  background-color: #fdfb7674;
-  box-shadow: 36px 34px 9px -1px rgba(0, 0, 0, 0.75);
+  background-color: #fd76e674;
+  box-shadow: 10px 15px 9px -1px rgba(0, 0, 0, 0.75);
+  max-width: 1500px;
+  border-radius: 34px 34px 34px 34px / 30px 30px 30px 30px;
+  text-align: center;
 }
 
 .articuloJuegos {
@@ -625,6 +629,7 @@ a:visited {
   color: #eadf13;
   text-shadow: 2px 2px 0 #e34121;
   font-size: 25px;
+  margin-left: auto;
 }
 
 .flexImg {
@@ -655,7 +660,7 @@ a:visited {
   text-shadow: 2px 2px 0 #e34121;
   background-color: #6a1d5b;
   padding: 1rem;
-  box-shadow: 36px 34px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 20px 10px 20px -1px rgba(0, 0, 0, 0.75);
   border-radius: 12px;
   margin-left: 200px;
   margin-top: 3rem;
@@ -818,6 +823,20 @@ label {
 .accordion-body--moda {
   background-image: url(../images/Shiny\ Overlay.svg);
   background-size: cover;
+}
+
+.accordion-button--juegos {
+  background-image: url(../images/hollowed-boxes.svg);
+  background-size: contain;
+}
+
+.accordion-button--juegos:not(.collapsed) {
+  background-image: url(../images/hollowed-boxes1.svg);
+}
+
+.accordion-body--juegos {
+  background-color: #12eaa6;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%23707c8e' fill-opacity='0.4'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
 @media screen and (max-width: 600px) {
@@ -1316,13 +1335,8 @@ label {
   }
 
   .articuloJuegos__subtitulo {
-    font-size: 18px;
-    margin-right: 20px;
-    margin-top: 20px;
-  }
-
-  .flexImg {
-    width: 320px;
+    font-size: 16px;
+    margin-bottom: 0px;
   }
 
   .flexImg__1 {
@@ -1342,8 +1356,8 @@ label {
     font-size: 12px;
     margin: 0;
     width: 300px;
-    box-shadow: -2px 14px 9px 5px rgb(0 0 0 / 75%);
-    margin-left: 5px;
+    box-shadow: -2px 5px 5px 5px rgb(0 0 0 / 75%);
+    margin-left: -3px;
     text-align: justify;
   }
 
