@@ -94,7 +94,6 @@ a:visited {
   font-style: italic;
   display: flex;
   flex-direction: column;
-  position: relative;
   margin: 5px;
   border-radius: 5px;
 }
@@ -119,9 +118,6 @@ a:visited {
 .seccion1__imagen {
   width: 500px;
   height: 550px;
-  position: absolute;
-  bottom: 80px;
-  left: 90px;
 }
 
 .seccion1__subtitulo {
@@ -141,7 +137,12 @@ a:visited {
   border-style: inset;
   align-self: center;
   backdrop-filter: blur(10px);
-  margin-bottom: 200px;
+}
+
+.flex1 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner {
@@ -924,8 +925,6 @@ label {
     font-size: 18px;
     -webkit-text-stroke: 0.5px black;
     margin-top: 80px;
-    align-self: flex-start;
-    margin-left: 3rem;
   }
 
   .seccion1__parrafo2 {
