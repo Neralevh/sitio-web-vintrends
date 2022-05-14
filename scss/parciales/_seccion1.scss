@@ -1,0 +1,50 @@
+.seccion1 {
+  background-image: url(../images/fondo1.svg);
+  background-size: contain;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.seccion1__titulo {
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 16px 1px 1px;
+  color: #fdfb76;
+  -webkit-text-stroke: 1px black;
+}
+
+.seccion1__parrafo {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10rem;
+  color: #f5a01f;
+  -webkit-text-stroke: 1px black;
+}
+
+.seccion1__imagen {
+  width: 500px;
+  height: 550px;
+}
+
+.seccion1__subtitulo {
+  font-size: 40px;
+  text-align: center;
+  color: #673b90;
+  -webkit-text-stroke: 1px black;
+  margin-top: 100px;
+}
+.seccion1__parrafo2 {
+  color: #49297e;
+  font-size: 30px;
+  width: 600px;
+  font-weight: 300;
+  border: 5px solid #e10086;
+  border-radius: 5px;
+  border-style: inset;
+  align-self: center;
+  backdrop-filter: blur(10px);
+}

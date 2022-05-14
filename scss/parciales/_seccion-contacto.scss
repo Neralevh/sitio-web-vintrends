@@ -1,0 +1,87 @@
+.seccionContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 318px;
+  height: 1000px;
+  background-image: url(../images/Mail.png);
+  background-size: contain;
+  margin: 2px;
+  border-radius: 3px;
+}
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  min-height: 700px;
+  border-radius: 10px;
+  background-color: #fdfb76;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 4px 0 #d44ab8;
+}
+
+.linea {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.input {
+  background-color: #e10086;
+  width: 300px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.input--footer {
+  width: 220px;
+  height: 25px;
+}
+
+.textarea {
+  background-color: #e10086;
+  width: 300px;
+  height: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 1);
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  padding-left: 3px;
+  color: #fdfb76;
+}
+
+label {
+  text-shadow: 1px 0.7px 0 #d44ab8;
+}
+
+.subtexto {
+  text-shadow: 1px 2px 0 #d44ab8;
+}
+
+.boton {
+  box-shadow: inset 0px 2px 0px 0px #fbafe3;
+  background: linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+  background-color: #ff5bb0;
+  border-radius: 6px;
+  border: 1px solid #ee1eb5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #c70067;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}

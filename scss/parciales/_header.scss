@@ -1,0 +1,47 @@
+.header {
+  background-image: url(../images/90s-Design-Trends.png);
+  max-height: 100px;
+  min-width: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 200px;
+  height: 80px;
+}
+
+.nav {
+  font-size: 30px;
+}
+.nav__lista {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-right: 280px;
+  font-size: 24px;
+}
+
+.nav__item {
+  margin-left: 150px;
+}
+
+.nav__enlace {
+  text-decoration: none;
+  color: #d1439e;
+  -webkit-text-stroke: 1px black;
+}
+
+.header__menu {
+  display: none;
+}
+
+.nav__item--close {
+  display: none;
+}

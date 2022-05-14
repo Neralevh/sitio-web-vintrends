@@ -1,0 +1,149 @@
+.footer {
+  background-image: url(../images/fondoFooter.svg);
+  background-size: cover;
+  font-style: italic;
+  height: 270px;
+  display: grid;
+  grid-template-columns: 0.2fr 1.5fr 1.1fr 1.4fr 0.7fr;
+  grid-template-rows: 0.5fr 3.3fr 2.8fr 1.5fr 1.6fr;
+  grid-template-areas:
+    ". . . . ."
+    "iconos . logo . ."
+    ". . contacto . redes"
+    ". enlaces derechos . .";
+  max-width: 1903px;
+  max-height: 380px;
+  margin: 2px;
+  border-radius: 3px;
+}
+
+.footer__logo {
+  padding-top: 1.5rem;
+  grid-area: logo;
+  justify-self: center;
+}
+
+.footer__imagen {
+  width: 240px;
+  height: 100px;
+}
+.redes {
+  right: 0px;
+  grid-area: redes;
+  justify-self: center;
+}
+
+.redes__texto {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.redes__fb {
+  margin-left: 25px;
+}
+
+.newsletter {
+  font-size: 18px;
+  grid-area: contacto;
+}
+
+.copyright {
+  text-transform: uppercase;
+  grid-area: derechos;
+  justify-self: center;
+  align-self: flex-end;
+}
+
+.copyright__texto {
+  bottom: 0px;
+}
+
+.enlacesFooter {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  grid-area: enlaces;
+  justify-content: space-around;
+  margin-right: 300px;
+}
+
+.enlacesFooter__1 {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.enlacesFooter__2 {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.enlacesFooter__3 {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.enlacesIconos {
+  padding-top: 5px;
+  grid-area: iconos;
+  justify-self: center;
+}
+
+.listaIconos {
+  width: 35px;
+}
+
+.listaIconos__moda {
+  list-style: none;
+  background-color: #fdfb76;
+  border: 2px solid #e10086;
+  border-radius: 10px;
+  width: 100%;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+.listaIconos__musica {
+  list-style: none;
+  background-color: #fdfb76;
+  border: 2px solid #e10086;
+  border-radius: 10px;
+  width: 100%;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+.listaIconos__peliculas {
+  list-style: none;
+  background-color: #fdfb76;
+  border: 2px solid #e10086;
+  border-radius: 10px;
+  width: 100%;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+.listaIconos__videojuegos {
+  list-style: none;
+  background-color: #fdfb76;
+  border: 2px solid #e10086;
+  border-radius: 10px;
+  width: 100%;
+  margin: 2px;
+}
+
+.boton--footer {
+  box-shadow: inset 0px -1px 0px 0px #fbafe3;
+  background-color: #ff5bb0;
+  border-radius: 4px;
+  border: 1px solid #ee1eb5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 10px;
+  padding: 4px 16px;
+  text-decoration: none;
+  text-shadow: 0px 3px 4px #c70067;
+  margin-left: 150px;
+  margin-top: 1rem;
+}

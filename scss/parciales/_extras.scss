@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: beige;
+  min-height: 1000px;
+  min-width: 320px;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+hr {
+  opacity: 0.8;
+  border: 1px solid black;
+}
+
+vr {
+  width: 5px;
+}
+
+.row > * {
+  padding: 0;
+}
+a:visited {
+  color: #dff614;
+}
+
+.aC {
+  text-align: center;
+  color: #dff614;
+  font-size: 80px;
+}
+
+.caja-negra {
+  background-color: black;
+}
+
+.flex1 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner {
+  height: 200px;
+  background-image: url(../images/banner-sitio.jpg);
+  background-size: contain;
+}
