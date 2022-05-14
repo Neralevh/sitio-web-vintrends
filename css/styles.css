@@ -1189,7 +1189,7 @@ label {
     margin: 2px;
     border-radius: 3px;
     min-width: 318px;
-    min-height: 800px;
+    min-height: 600px;
   }
 
   .articuloPrincipal__titulo {
@@ -1365,7 +1365,7 @@ label {
   }
 
   .articuloPrincipal--musica {
-    min-height: 800px;
+    min-height: 600px;
   }
 
   .articuloPrincipal__subtitulo--musica {
@@ -1383,6 +1383,6 @@ label {
   }
 
   .articuloPrincipal--peli {
-    min-height: 100vh;
+    min-height: 600px;
   }
 }

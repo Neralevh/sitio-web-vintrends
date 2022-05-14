@@ -483,3 +483,93 @@
       0 0 100px rgba(255, 255, 255, 0.1);
   }
 }
+
+.rotacion {
+  animation-name: rotacion;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes rotacion {
+  0% {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+  100% {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rotacion2 {
+  animation-name: rotacion2;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes rotacion2 {
+  0% {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+  100% {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.aparicionDeLado {
+  animation-name: aparicionDeLado;
+  animation-duration: 1.3s;
+  animation-fill-mode: both;
+}
+
+@keyframes aparicionDeLado {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.zooming {
+  animation-name: zooming;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes zooming {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
