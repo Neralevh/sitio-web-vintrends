@@ -1,14 +1,33 @@
 .articuloJuegos {
   margin-top: 150px;
   margin-left: 2rem;
-}
 
-.articuloJuegos__subtitulo {
-  text-align: center;
-  color: #eadf13;
-  text-shadow: 2px 2px 0 #e34121;
-  font-size: 25px;
-  margin-left: auto;
+  &__subtitulo {
+    text-align: center;
+    color: #eadf13;
+    text-shadow: 2px 2px 0 #e34121;
+    font-size: 30px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__parrafo {
+    width: 1500px;
+    font-size: 22px;
+    color: #eadf13;
+    text-shadow: 2px 2px 0 #e34121;
+    background-color: #6a1d5b;
+    padding: 1rem;
+    box-shadow: 20px 10px 20px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    margin-left: 200px;
+    margin-top: 3rem;
+  }
+
+  &--v1 {
+    padding-bottom: 40px;
+  }
 }
 
 .flexImg {
@@ -16,35 +35,18 @@
   justify-content: space-around;
   margin-top: 2rem;
   margin-bottom: 1rem;
-}
 
-.flexImg__1 {
-  border-radius: 10px;
-  border: 7px ridge #6a1d5b;
-  width: 800px;
-  height: 600px;
-}
+  &__1 {
+    border-radius: 10px;
+    border: 7px ridge #6a1d5b;
+    width: 800px;
+    height: 600px;
+  }
 
-.flexImg__2 {
-  border-radius: 10px;
-  border: 7px ridge #6a1d5b;
-  width: 800px;
-  height: 600px;
-}
-
-.articuloJuegos__parrafo {
-  width: 1500px;
-  font-size: 22px;
-  color: #eadf13;
-  text-shadow: 2px 2px 0 #e34121;
-  background-color: #6a1d5b;
-  padding: 1rem;
-  box-shadow: 20px 10px 20px -1px rgba(0, 0, 0, 0.75);
-  border-radius: 12px;
-  margin-left: 200px;
-  margin-top: 3rem;
-}
-
-.articuloJuegos--v1 {
-  padding-bottom: 40px;
+  &__2 {
+    border-radius: 10px;
+    border: 7px ridge #6a1d5b;
+    width: 800px;
+    height: 600px;
+  }
 }

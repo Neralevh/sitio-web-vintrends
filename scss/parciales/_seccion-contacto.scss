@@ -36,11 +36,11 @@
   border: 1px solid white;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 1);
-}
 
-.input--footer {
-  width: 220px;
-  height: 25px;
+  &--footer {
+    width: 220px;
+    height: 25px;
+  }
 }
 
 .textarea {
@@ -84,4 +84,21 @@ label {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
+
+  &--footer {
+    box-shadow: inset 0px -1px 0px 0px #fbafe3;
+    background-color: #ff5bb0;
+    border-radius: 4px;
+    border: 1px solid #ee1eb5;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 4px 16px;
+    text-decoration: none;
+    text-shadow: 0px 3px 4px #c70067;
+    margin-left: 150px;
+    margin-top: 1rem;
+  }
 }

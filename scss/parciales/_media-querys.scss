@@ -10,24 +10,35 @@
 
   .nav {
     display: none;
+
+    &__lista {
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 100;
+    }
+
+    &__item--close {
+      display: block;
+    }
   }
 
   .header {
     flex-direction: row;
     min-width: 318px;
-  }
 
-  .header__logo {
-    width: 100px;
-    height: 40px;
-    margin: 1rem;
-  }
+    &__logo {
+      width: 100px;
+      height: 40px;
+      margin: 1rem;
+    }
 
-  .header__menu {
-    display: block;
-    text-decoration: none;
-    font-size: 32px;
-    color: black;
+    &__menu {
+      display: block;
+      text-decoration: none;
+      font-size: 32px;
+      color: black;
+    }
   }
 
   a:visited {
@@ -50,56 +61,45 @@
     left: 0;
   }
 
-  .nav__lista {
-    flex-direction: column;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 100;
-  }
-
-  .nav__item--close {
-    display: block;
-  }
-
   .seccion1 {
     height: 350px;
     margin: 2px;
     border-radius: 3px;
     min-width: 318px;
     overflow: hidden;
-  }
 
-  .seccion1__titulo {
-    font-size: 28px;
-  }
+    &__titulo {
+      font-size: 28px;
+    }
 
-  .seccion1__parrafo {
-    font-size: 14px;
-    margin-bottom: 0;
-    -webkit-text-stroke: 0.5px black;
-  }
+    &__parrafo {
+      font-size: 14px;
+      margin-bottom: 0;
+      -webkit-text-stroke: 0.5px black;
+    }
 
-  .seccion1__subtitulo {
-    font-size: 18px;
-    -webkit-text-stroke: 0.5px black;
-    margin-top: 80px;
-  }
+    &__subtitulo {
+      font-size: 18px;
+      -webkit-text-stroke: 0.5px black;
+      margin-top: 80px;
+    }
 
-  .seccion1__parrafo2 {
-    font-size: 12px;
-    width: 190px;
-    align-self: flex-start;
-    border: 1px solid #e10086;
-    margin-left: 5px;
-    text-align: justify;
-    padding: 5px;
-  }
+    &__parrafo2 {
+      font-size: 12px;
+      width: 190px;
+      align-self: flex-start;
+      border: 1px solid #e10086;
+      margin-left: 5px;
+      text-align: justify;
+      padding: 5px;
+    }
 
-  .seccion1__imagen {
-    width: 120px;
-    height: 140px;
-    top: 175px;
-    left: 200px;
+    &__imagen {
+      width: 120px;
+      height: 140px;
+      top: 175px;
+      left: 200px;
+    }
   }
 
   .banner {
@@ -111,21 +111,26 @@
     min-width: 318px;
     margin: 2px;
     border-radius: 3px;
-  }
 
-  .seccion2__titulo {
-    font-size: 23px;
-    padding-top: 20px;
-  }
+    &__titulo {
+      font-size: 23px;
+      padding-top: 20px;
+    }
 
-  .seccion2__parrafo {
-    font-size: 12px;
-    min-width: 280px;
-    -webkit-text-stroke: 0.5px black;
-    text-align: justify;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    &__parrafo {
+      font-size: 12px;
+      min-width: 280px;
+      -webkit-text-stroke: 0.5px black;
+      text-align: justify;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    &__imagen {
+      width: 150px;
+      height: 90px;
+    }
   }
 
   .boxImages {
@@ -135,11 +140,6 @@
     height: 180px;
     margin-top: 60px;
     align-content: space-around;
-  }
-
-  .seccion2__imagen {
-    width: 150px;
-    height: 90px;
   }
 
   .footer {
@@ -155,6 +155,18 @@
       "ele1 ele2 ."
       "ele1 ele3 ele4"
       "ele5 . ele6";
+
+    &__logo {
+      width: 85px;
+      height: 40px;
+      padding-top: 2px;
+      grid-area: ele2;
+    }
+
+    &__imagen {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .row {
@@ -169,12 +181,29 @@
   .listaIconos {
     width: 20px;
     height: 20px;
-  }
 
-  .listaIconos__moda {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #e10086;
+    &__moda {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #e10086;
+    }
+
+    &__musica {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #e10086;
+    }
+    &__peliculas {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #e10086;
+    }
+
+    &__videojuegos {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #e10086;
+    }
   }
 
   .icono__moda {
@@ -183,22 +212,10 @@
     margin-left: 1px;
   }
 
-  .listaIconos__musica {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #e10086;
-  }
-
   .icono__musica {
     width: 15px;
     height: 15px;
     margin-left: 1px;
-  }
-
-  .listaIconos__peliculas {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #e10086;
   }
 
   .icono__peliculas {
@@ -207,28 +224,10 @@
     margin-left: 1px;
   }
 
-  .listaIconos__videojuegos {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #e10086;
-  }
-
   .icono__videojuegos {
     width: 15px;
     height: 15px;
     margin-left: 1px;
-  }
-
-  .footer__logo {
-    width: 85px;
-    height: 40px;
-    padding-top: 2px;
-    grid-area: ele2;
-  }
-
-  .footer__imagen {
-    width: 100%;
-    height: 100%;
   }
 
   .newsletter {
@@ -256,33 +255,33 @@
     grid-area: ele5;
     align-self: flex-end;
     margin-bottom: 5px;
-  }
 
-  .enlacesFooter__1 {
-    font-size: 5px;
-    height: 6px;
-  }
+    &__1 {
+      font-size: 5px;
+      height: 6px;
+    }
 
-  .enlacesFooter__2 {
-    font-size: 5px;
-    height: 6px;
-  }
+    &__2 {
+      font-size: 5px;
+      height: 6px;
+    }
 
-  .enlacesFooter__3 {
-    font-size: 5px;
-    width: 55px;
-    height: 6px;
+    &__3 {
+      font-size: 5px;
+      width: 55px;
+      height: 6px;
+    }
   }
 
   .copyright {
     height: 10px;
     grid-area: ele6;
-    margin-right: 60px;
-    width: 133px;
-  }
+    margin-right: 70px;
+    width: 145px;
 
-  .copyright__texto {
-    font-size: 4px;
+    &__texto {
+      font-size: 4px;
+    }
   }
 
   .redes {
@@ -290,73 +289,160 @@
     grid-area: ele4;
     justify-self: end;
     margin-right: 5px;
-  }
 
-  .redes__texto {
-    display: none;
-  }
+    &__texto {
+      display: none;
+    }
+    &__fb {
+      margin-left: 0px;
+      width: 20px;
+    }
 
-  .redes__fb {
-    margin-left: 0px;
-    width: 20px;
-  }
+    &__instagram {
+      width: 20px;
+      height: 20px;
+    }
 
-  .redes__instagram {
-    width: 20px;
-    height: 20px;
-  }
+    &__twitter {
+      width: 25px;
+      height: 20px;
+    }
 
-  .redes__twitter {
-    width: 25px;
-    height: 20px;
-  }
-
-  .redes__youtube {
-    width: 25px;
-    height: 20px;
+    &__youtube {
+      width: 25px;
+      height: 20px;
+    }
   }
 
   .articuloInicio {
     margin: 2px;
     border-radius: 3px;
-    min-width: 318px;
-  }
 
-  .articuloInicio__titulo {
-    font-size: 35px;
-    text-shadow: 1px 1px 0 #d44ab8;
-  }
+    &__titulo {
+      font-size: 35px;
+      text-shadow: 1px 1px 0 #d44ab8;
+    }
 
-  .articuloInicio__imagen {
-    width: 70%;
-    height: 70%;
-    margin: 0px;
-    margin-left: 50px;
-    padding-top: 10px;
-    border-radius: 20px;
-  }
+    &__imagen {
+      width: 70%;
+      height: 70%;
+      margin: 0px;
+      margin-left: 50px;
+      padding-top: 10px;
+      border-radius: 20px;
+    }
 
-  .articuloInicio_parrafo {
-    font-size: 15px;
-    right: 10px;
-    width: 100%;
-    height: max-content;
+    &__parrafo {
+      font-size: 15px;
+      right: 10px;
+      width: 100%;
+      height: max-content;
+    }
+
+    &--juegos {
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &__titulo--juegos {
+      font-size: 30px;
+    }
+
+    &__imagen {
+      height: 160px;
+    }
+
+    &__parrafo--juegos {
+      font-size: 12px;
+      width: 300px;
+      margin-right: 8px;
+    }
+
+    &--musica {
+      background-size: contain;
+    }
   }
 
   .articuloPrincipal {
     margin: 2px;
     border-radius: 3px;
-    min-width: 318px;
     min-height: 600px;
-  }
 
-  .articuloPrincipal__titulo {
-    font-size: 20px;
-    padding-top: 20px;
-  }
+    &__titulo {
+      font-size: 20px;
+      padding-top: 20px;
+    }
 
-  .articuloPrincipal__subtitulo {
-    font-size: 15px;
+    &__subtitulo {
+      font-size: 15px;
+    }
+
+    &__img {
+      width: 250px;
+      height: 180px;
+      margin-left: 0;
+    }
+
+    &__parrafo {
+      width: 300px;
+      margin-left: 5px;
+      margin-top: 5px;
+      font-size: 12.5px;
+      -webkit-text-stroke: 0.4px black;
+      text-shadow: 1px 1px 0 #e10086;
+    }
+
+    &__img--2 {
+      width: 140px;
+    }
+
+    &__img--6 {
+      width: 140px;
+      margin-top: 0;
+    }
+
+    &__img--10 {
+      width: 190px;
+    }
+
+    &__iframe {
+      width: 300px;
+      margin-left: -10px;
+      border-radius: 12px;
+    }
+
+    &__img--musica {
+      width: 190px;
+      height: 190px;
+    }
+
+    &__titulo--juegos {
+      font-size: 20px;
+    }
+
+    &__parrafo--juegos {
+      margin-left: 5px;
+      font-size: 14px;
+      min-width: 300px;
+    }
+
+    &--musica {
+      min-height: 600px;
+    }
+
+    &__subtitulo--musica {
+      color: #f18d9a;
+      text-shadow: 2px 2px 0 black;
+    }
+
+    &__titulo--musica {
+      text-shadow: 2px 2px 0 black;
+      padding-top: 20px;
+    }
+
+    &--peli {
+      min-height: 600px;
+    }
   }
 
   .flexModa {
@@ -364,55 +450,12 @@
     height: 350px;
   }
 
-  .articuloPrincipal__img {
-    width: 250px;
-    height: 180px;
-    margin-left: 0;
-  }
-
-  .articuloPrincipal__parrafo {
-    width: 300px;
-    margin-left: 5px;
-    margin-top: 5px;
-    font-size: 12.5px;
-    -webkit-text-stroke: 0.4px black;
-    text-shadow: 1px 1px 0 #e10086;
-  }
-
-  .articuloPrincipal__img--2 {
-    width: 140px;
-  }
-
-  .articuloPrincipal__img--6 {
-    width: 140px;
-    margin-top: 0;
-  }
-
-  .articuloPrincipal__img--10 {
-    width: 190px;
-  }
-
-  .articuloInicio--musica {
-    background-size: contain;
-  }
-
-  .articuloPrincipal__iframe {
-    width: 300px;
-    margin-left: -10px;
-    border-radius: 12px;
-  }
-
-  .articuloPrincipal__img--musica {
-    width: 190px;
-    height: 190px;
-  }
-
   .seccionContacto {
     align-items: flex-start;
   }
 
   .formularioContacto {
-    min-width: 300px;
+    width: 300px;
     font-size: 1rem;
     margin-top: 6rem;
   }
@@ -420,12 +463,12 @@
   .input {
     width: 200px;
     height: 2rem;
-  }
 
-  .input--footer {
-    width: 160px;
-    height: 20px;
-    margin-bottom: 9px;
+    &--footer {
+      width: 160px;
+      height: 20px;
+      margin-bottom: 9px;
+    }
   }
 
   section input {
@@ -456,42 +499,21 @@
     text-shadow: 0px 1px 0px #c70067;
   }
 
-  .articuloInicio--juegos {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .articuloInicio__titulo--juegos {
-    font-size: 30px;
-  }
-
-  .articuloInicio__imagen {
-    height: 160px;
-  }
-
-  .articuloInicio__parrafo--juegos {
-    font-size: 12px;
-    width: 300px;
-    margin-right: 8px;
-  }
-
-  .articuloPrincipal__titulo--juegos {
-    font-size: 20px;
-  }
-
-  .articuloPrincipal__parrafo--juegos {
-    margin-left: 5px;
-    font-size: 14px;
-    min-width: 300px;
-  }
-
   .articuloJuegos {
     margin: 0px;
-  }
 
-  .articuloJuegos__subtitulo {
-    font-size: 16px;
-    margin-bottom: 0px;
+    &__subtitulo {
+      font-size: 15px;
+    }
+
+    &__parrafo {
+      font-size: 12px;
+      margin: 0;
+      width: 300px;
+      box-shadow: -2px 5px 5px 5px RGB(0 0 0 / 75%);
+      margin-left: -3px;
+      text-align: justify;
+    }
   }
 
   .flexImg__1 {
@@ -507,38 +529,11 @@
     border: 3px ridge #6a1d5b;
   }
 
-  .articuloJuegos__parrafo {
-    font-size: 12px;
-    margin: 0;
-    width: 300px;
-    box-shadow: -2px 5px 5px 5px RGB(0 0 0 / 75%);
-    margin-left: -3px;
-    text-align: justify;
-  }
-
   .flexInicio {
     flex-direction: column;
   }
 
-  .articuloPrincipal--musica {
-    min-height: 600px;
-  }
-
-  .articuloPrincipal__subtitulo--musica {
-    color: #f18d9a;
-    text-shadow: 2px 2px 0 black;
-  }
-
   .accordion {
     margin: 2px 2px;
-  }
-
-  .articuloPrincipal__titulo--musica {
-    text-shadow: 2px 2px 0 black;
-    padding-top: 20px;
-  }
-
-  .articuloPrincipal--peli {
-    min-height: 600px;
   }
 }
