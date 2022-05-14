@@ -12,8 +12,8 @@
     text-align: center;
     text-decoration: underline;
     padding: 16px 1px 1px;
-    color: #fdfb76;
-    -webkit-text-stroke: 1px black;
+    color: $amarillo1;
+    -webkit-text-stroke: 1px $negro;
   }
 
   &__parrafo {
@@ -21,7 +21,7 @@
     text-align: center;
     margin-bottom: 10rem;
     color: #f5a01f;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px $negro;
   }
 
   &__imagen {
@@ -33,7 +33,7 @@
     font-size: 40px;
     text-align: center;
     color: #673b90;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px $negro;
     margin-top: 100px;
   }
   &__parrafo2 {
@@ -41,7 +41,7 @@
     font-size: 30px;
     width: 600px;
     font-weight: 300;
-    border: 5px solid #e10086;
+    border: 5px solid $rositaChicle;
     border-radius: 5px;
     border-style: inset;
     align-self: center;

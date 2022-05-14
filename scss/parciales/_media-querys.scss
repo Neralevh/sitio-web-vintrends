@@ -37,12 +37,12 @@
       display: block;
       text-decoration: none;
       font-size: 32px;
-      color: black;
+      color: $negro;
     }
   }
 
   a:visited {
-    color: black;
+    color: $negro;
   }
 
   #lateral {
@@ -75,12 +75,12 @@
     &__parrafo {
       font-size: 14px;
       margin-bottom: 0;
-      -webkit-text-stroke: 0.5px black;
+      -webkit-text-stroke: 0.5px $negro;
     }
 
     &__subtitulo {
       font-size: 18px;
-      -webkit-text-stroke: 0.5px black;
+      -webkit-text-stroke: 0.5px $negro;
       margin-top: 80px;
     }
 
@@ -88,7 +88,7 @@
       font-size: 12px;
       width: 190px;
       align-self: flex-start;
-      border: 1px solid #e10086;
+      border: 1px solid $rositaChicle;
       margin-left: 5px;
       text-align: justify;
       padding: 5px;
@@ -120,7 +120,7 @@
     &__parrafo {
       font-size: 12px;
       min-width: 280px;
-      -webkit-text-stroke: 0.5px black;
+      -webkit-text-stroke: 0.5px $negro;
       text-align: justify;
       margin-top: 10px;
       margin-right: 10px;
@@ -185,24 +185,24 @@
     &__moda {
       width: 100%;
       height: 100%;
-      border: 1px solid #e10086;
+      border: 1px solid $rositaChicle;
     }
 
     &__musica {
       width: 100%;
       height: 100%;
-      border: 1px solid #e10086;
+      border: 1px solid $rositaChicle;
     }
     &__peliculas {
       width: 100%;
       height: 100%;
-      border: 1px solid #e10086;
+      border: 1px solid $rositaChicle;
     }
 
     &__videojuegos {
       width: 100%;
       height: 100%;
-      border: 1px solid #e10086;
+      border: 1px solid $rositaChicle;
     }
   }
 
@@ -388,8 +388,8 @@
       margin-left: 5px;
       margin-top: 5px;
       font-size: 12.5px;
-      -webkit-text-stroke: 0.4px black;
-      text-shadow: 1px 1px 0 #e10086;
+      -webkit-text-stroke: 0.4px $negro;
+      text-shadow: 1px 1px 0 $rositaChicle;
     }
 
     &__img--2 {
@@ -431,12 +431,12 @@
     }
 
     &__subtitulo--musica {
-      color: #f18d9a;
-      text-shadow: 2px 2px 0 black;
+      color: $fucsia;
+      text-shadow: 2px 2px 0 $negro;
     }
 
     &__titulo--musica {
-      text-shadow: 2px 2px 0 black;
+      text-shadow: 2px 2px 0 $negro;
       padding-top: 20px;
     }
 

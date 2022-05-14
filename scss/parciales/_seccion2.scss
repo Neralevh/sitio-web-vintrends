@@ -14,18 +14,18 @@
     text-decoration: underline;
     margin-left: 2rem;
     color: #3d6bbc;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px $negro;
     align-self: center;
   }
 
   &__parrafo {
     font-size: 25px;
-    color: #90dcff;
+    color: $celestito;
     margin-left: 2rem;
     margin-top: 2rem;
     text-align: start;
     min-height: 100px;
-    -webkit-text-stroke: 0.7px black;
+    -webkit-text-stroke: 0.7px $negro;
   }
   &__imagen {
     width: 474px;

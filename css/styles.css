@@ -22,7 +22,7 @@ p {
 
 hr {
   opacity: 0.8;
-  border: 1px solid black;
+  border: 1px solid #000000;
 }
 
 vr {
@@ -44,7 +44,7 @@ a:visited {
 }
 
 .caja-negra {
-  background-color: black;
+  background-color: #000000;
 }
 
 .flex1 {
@@ -113,8 +113,8 @@ a:visited {
 
 .nav__enlace {
   text-decoration: none;
-  color: #d1439e;
-  -webkit-text-stroke: 1px black;
+  color: #e10086;
+  -webkit-text-stroke: 1px #000000;
 }
 
 .nav__item--close {
@@ -137,7 +137,7 @@ a:visited {
   text-decoration: underline;
   padding: 16px 1px 1px;
   color: #fdfb76;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px #000000;
 }
 
 .seccion1__parrafo {
@@ -145,7 +145,7 @@ a:visited {
   text-align: center;
   margin-bottom: 10rem;
   color: #f5a01f;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px #000000;
 }
 
 .seccion1__imagen {
@@ -157,7 +157,7 @@ a:visited {
   font-size: 40px;
   text-align: center;
   color: #673b90;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px #000000;
   margin-top: 100px;
 }
 
@@ -190,7 +190,7 @@ a:visited {
   text-decoration: underline;
   margin-left: 2rem;
   color: #3d6bbc;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px #000000;
   align-self: center;
 }
 
@@ -201,7 +201,7 @@ a:visited {
   margin-top: 2rem;
   text-align: start;
   min-height: 100px;
-  -webkit-text-stroke: 0.7px black;
+  -webkit-text-stroke: 0.7px #000000;
 }
 
 .seccion2__imagen {
@@ -395,7 +395,7 @@ a:visited {
 
 .articuloInicio__titulo--pelis {
   color: #00db96;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 2px #000000;
 }
 
 .articuloInicio--musica {
@@ -410,7 +410,7 @@ a:visited {
 
 .articuloInicio__titulo--musica {
   color: #fdfb76;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px #000000;
 }
 
 .articuloInicio__parrafo--musica {
@@ -429,8 +429,8 @@ a:visited {
 }
 
 .articuloInicio__titulo--juegos {
-  color: black;
-  -webkit-text-stroke: 1px #d1439e;
+  color: #000000;
+  -webkit-text-stroke: 1px #e10086;
 }
 
 .articuloInicio__parrafo--juegos {
@@ -486,7 +486,7 @@ a:visited {
   text-shadow: 2px 2px 0 #e10086;
   background-color: #90dcff;
   font-weight: 400;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px #000000;
   padding: 10px;
   border-radius: 12px;
 }
@@ -570,12 +570,12 @@ a:visited {
 
 .articuloPrincipal__titulo--musica {
   color: #f18d9a;
-  text-shadow: 2px 4px 0 black;
+  text-shadow: 2px 4px 0 #000000;
 }
 
 .articuloPrincipal__subtitulo--musica {
   color: #f18d9a;
-  text-shadow: 2px 4px 0 black;
+  text-shadow: 2px 4px 0 #000000;
 }
 
 .articuloPrincipal__parrafo--musica {
@@ -864,10 +864,10 @@ label {
     display: block;
     text-decoration: none;
     font-size: 32px;
-    color: black;
+    color: #000000;
   }
   a:visited {
-    color: black;
+    color: #000000;
   }
   #lateral {
     display: block;
@@ -896,11 +896,11 @@ label {
   .seccion1__parrafo {
     font-size: 14px;
     margin-bottom: 0;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5px #000000;
   }
   .seccion1__subtitulo {
     font-size: 18px;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5px #000000;
     margin-top: 80px;
   }
   .seccion1__parrafo2 {
@@ -934,7 +934,7 @@ label {
   .seccion2__parrafo {
     font-size: 12px;
     min-width: 280px;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5px #000000;
     text-align: justify;
     margin-top: 10px;
     margin-right: 10px;
@@ -1156,7 +1156,7 @@ label {
     margin-left: 5px;
     margin-top: 5px;
     font-size: 12.5px;
-    -webkit-text-stroke: 0.4px black;
+    -webkit-text-stroke: 0.4px #000000;
     text-shadow: 1px 1px 0 #e10086;
   }
   .articuloPrincipal__img--2 {
@@ -1191,10 +1191,10 @@ label {
   }
   .articuloPrincipal__subtitulo--musica {
     color: #f18d9a;
-    text-shadow: 2px 2px 0 black;
+    text-shadow: 2px 2px 0 #000000;
   }
   .articuloPrincipal__titulo--musica {
-    text-shadow: 2px 2px 0 black;
+    text-shadow: 2px 2px 0 #000000;
     padding-top: 20px;
   }
   .articuloPrincipal--peli {

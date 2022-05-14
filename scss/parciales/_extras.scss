@@ -22,7 +22,7 @@ p {
 
 hr {
   opacity: 0.8;
-  border: 1px solid black;
+  border: 1px solid $negro;
 }
 
 vr {
@@ -43,7 +43,7 @@ a:visited {
 }
 
 .caja-negra {
-  background-color: black;
+  background-color: $negro;
 }
 
 .flex1 {
