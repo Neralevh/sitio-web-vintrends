@@ -23,8 +23,7 @@
   }
 
   &__imagen {
-    width: 240px;
-    height: 100px;
+    @include sizes(240px, 100px);
   }
 }
 
@@ -95,41 +94,41 @@
   width: 35px;
 
   &__moda {
-    list-style: none;
     background-color: $amarillo1;
     border: 2px solid $rositaChicle;
-    border-radius: 10px;
-    width: 100%;
-    margin: 2px;
-    margin-bottom: 10px;
+    list-style: map-get($caja-iconos, sin);
+    border-radius: map-get($caja-iconos, borde-r);
+    width: map-get($caja-iconos, ancho);
+    margin: map-get($caja-iconos, margen);
+    margin-bottom: map-get($caja-iconos, margen-a);
   }
 
   &__musica {
-    list-style: none;
     background-color: $amarillo1;
     border: 2px solid $rositaChicle;
-    border-radius: 10px;
-    width: 100%;
-    margin: 2px;
-    margin-bottom: 10px;
+    list-style: map-get($caja-iconos, sin);
+    border-radius: map-get($caja-iconos, borde-r);
+    width: map-get($caja-iconos, ancho);
+    margin: map-get($caja-iconos, margen);
+    margin-bottom: map-get($caja-iconos, margen-a);
   }
 
   &__peliculas {
-    list-style: none;
     background-color: $amarillo1;
     border: 2px solid $rositaChicle;
-    border-radius: 10px;
-    width: 100%;
-    margin: 2px;
-    margin-bottom: 10px;
+    list-style: map-get($caja-iconos, sin);
+    border-radius: map-get($caja-iconos, borde-r);
+    width: map-get($caja-iconos, ancho);
+    margin: map-get($caja-iconos, margen);
+    margin-bottom: map-get($caja-iconos, margen-a);
   }
 
   &__videojuegos {
-    list-style: none;
     background-color: $amarillo1;
     border: 2px solid $rositaChicle;
-    border-radius: 10px;
-    width: 100%;
-    margin: 2px;
+    list-style: map-get($caja-iconos, sin);
+    border-radius: map-get($caja-iconos, borde-r);
+    width: map-get($caja-iconos, ancho);
+    margin: map-get($caja-iconos, margen);
   }
 }

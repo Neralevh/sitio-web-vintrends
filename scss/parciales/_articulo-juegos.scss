@@ -39,14 +39,10 @@
   &__1 {
     border-radius: 10px;
     border: 7px ridge #6a1d5b;
-    width: 800px;
-    height: 600px;
+    @include sizes(800px, 600px);
   }
 
   &__2 {
-    border-radius: 10px;
-    border: 7px ridge #6a1d5b;
-    width: 800px;
-    height: 600px;
+    @extend .flexImg__1;
   }
 }

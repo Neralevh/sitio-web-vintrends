@@ -3,3 +3,16 @@ $amarillo1: #fdfb76;
 $celestito: #90dcff;
 $fucsia: #f18d9a;
 $negro: #000000;
+
+@mixin sizes($width, $height) {
+  height: $height;
+  width: $width;
+}
+
+$caja-iconos: (
+  sin: none,
+  borde-r: 10px,
+  ancho: 100%,
+  margen: 2px,
+  margen-a: 10px,
+);

@@ -231,8 +231,8 @@ a:visited {
 }
 
 .footer__imagen {
-  width: 240px;
   height: 100px;
+  width: 240px;
 }
 
 .redes {
@@ -303,9 +303,9 @@ a:visited {
 }
 
 .listaIconos__moda {
-  list-style: none;
   background-color: #fdfb76;
   border: 2px solid #e10086;
+  list-style: none;
   border-radius: 10px;
   width: 100%;
   margin: 2px;
@@ -313,9 +313,9 @@ a:visited {
 }
 
 .listaIconos__musica {
-  list-style: none;
   background-color: #fdfb76;
   border: 2px solid #e10086;
+  list-style: none;
   border-radius: 10px;
   width: 100%;
   margin: 2px;
@@ -323,9 +323,9 @@ a:visited {
 }
 
 .listaIconos__peliculas {
-  list-style: none;
   background-color: #fdfb76;
   border: 2px solid #e10086;
+  list-style: none;
   border-radius: 10px;
   width: 100%;
   margin: 2px;
@@ -333,15 +333,15 @@ a:visited {
 }
 
 .listaIconos__videojuegos {
-  list-style: none;
   background-color: #fdfb76;
   border: 2px solid #e10086;
+  list-style: none;
   border-radius: 10px;
   width: 100%;
   margin: 2px;
 }
 
-.articuloInicio {
+.articuloInicio, .articuloInicio--pelis, .articuloInicio--musica, .articuloInicio--juegos {
   min-height: 500px;
   background-image: url(../images/fondoModa.svg);
   background-size: cover;
@@ -357,16 +357,16 @@ a:visited {
 }
 
 .articuloInicio__imagen {
-  width: 550px;
   height: 400px;
+  width: 550px;
   border-radius: 100px;
 }
 
 .articuloInicio__parrafo {
+  height: 300px;
+  width: 600px;
   font-size: 25px;
   color: white;
-  width: 600px;
-  height: 300px;
   font-weight: 400;
   text-align: center;
   border: 5px solid #90dcff;
@@ -378,12 +378,10 @@ a:visited {
 }
 
 .articuloInicio--pelis {
+  background-color: #287e9e;
   background-image: url(../images/cineFondo.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #287e9e;
-  margin: 5px;
-  border-radius: 5px;
 }
 
 .articuloInicio__parrafo--pelis {
@@ -401,11 +399,8 @@ a:visited {
 .articuloInicio--musica {
   background-color: #b06977;
   background-image: url(../images/skulls.svg);
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  margin: 5px;
-  border-radius: 5px;
 }
 
 .articuloInicio__titulo--musica {
@@ -414,13 +409,13 @@ a:visited {
 }
 
 .articuloInicio__parrafo--musica {
+  height: 300px;
+  width: 700px;
   color: white;
   text-shadow: 2px 2px 0 #433d31;
   font-weight: 400;
   backdrop-filter: blur(10px);
-  width: 700px;
   margin: 2rem;
-  height: 300px;
 }
 
 .articuloInicio--juegos {
@@ -434,13 +429,13 @@ a:visited {
 }
 
 .articuloInicio__parrafo--juegos {
+  height: 350px;
+  width: 600px;
   color: #ffe349;
   text-shadow: 2px 3px 0 #d05333;
   font-weight: 400;
-  width: 600px;
   right: 500px;
   top: 0px;
-  height: 350px;
 }
 
 .articuloPrincipal {
@@ -469,8 +464,8 @@ a:visited {
 }
 
 .articuloPrincipal__img {
-  width: 600px;
   height: 500px;
+  width: 600px;
   align-self: center;
   margin-left: 30px;
   border: 5px ridge #90dcff;
@@ -497,29 +492,29 @@ a:visited {
 }
 
 .articuloPrincipal__img--4 {
-  width: 600px;
   height: 450px;
+  width: 600px;
 }
 
 .articuloPrincipal__img--5 {
-  width: 768px;
   height: 477px;
+  width: 768px;
 }
 
 .articuloPrincipal__img--6 {
-  width: 464px;
   height: 579px;
+  width: 464px;
   margin-top: 3rem;
 }
 
 .articuloPrincipal__img--8 {
-  width: 760px;
   height: 500px;
+  width: 700px;
 }
 
 .articuloPrincipal iframe {
-  width: 900px;
   height: 600px;
+  width: 900px;
   margin-top: 7rem;
 }
 
@@ -586,8 +581,8 @@ a:visited {
 
 .articuloPrincipal__img--musica {
   border-color: #f5a01f;
-  width: 500px;
   height: 500px;
+  width: 500px;
 }
 
 .articuloPrincipal--juegos {
@@ -656,18 +651,11 @@ a:visited {
   margin-bottom: 1rem;
 }
 
-.flexImg__1 {
+.flexImg__1, .flexImg__2 {
   border-radius: 10px;
   border: 7px ridge #6a1d5b;
-  width: 800px;
   height: 600px;
-}
-
-.flexImg__2 {
-  border-radius: 10px;
-  border: 7px ridge #6a1d5b;
   width: 800px;
-  height: 600px;
 }
 
 .seccionContacto {
@@ -1094,7 +1082,7 @@ label {
     width: 25px;
     height: 20px;
   }
-  .articuloInicio {
+  .articuloInicio, .articuloInicio--pelis, .articuloInicio--musica, .articuloInicio--juegos {
     margin: 2px;
     border-radius: 3px;
   }
@@ -1260,7 +1248,7 @@ label {
     margin-left: -3px;
     text-align: justify;
   }
-  .flexImg__1 {
+  .flexImg__1, .flexImg__2 {
     width: 155px;
     height: 120px;
     border: 3px ridge #6a1d5b;

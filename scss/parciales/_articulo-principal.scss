@@ -23,8 +23,7 @@
   }
 
   &__img {
-    width: 600px;
-    height: 500px;
+    @include sizes(600px, 500px);
     align-self: center;
     margin-left: 30px;
     border: 5px ridge $celestito;
@@ -46,33 +45,27 @@
   }
 
   &__img--2 {
-    height: 500px;
-    width: 300px;
+    @include sizes(300px, 500px);
   }
 
   &__img--4 {
-    width: 600px;
-    height: 450px;
+    @include sizes(600px, 450px);
   }
 
   &__img--5 {
-    width: 768px;
-    height: 477px;
+    @include sizes(768px, 477px);
   }
 
   &__img--6 {
-    width: 464px;
-    height: 579px;
+    @include sizes(464px, 579px);
     margin-top: 3rem;
   }
 
   &__img--8 {
-    width: 760px;
-    height: 500px;
+    @include sizes(700px, 500px);
   }
   & iframe {
-    width: 900px;
-    height: 600px;
+    @include sizes(900px, 600px);
     margin-top: 7rem;
   }
 
@@ -139,8 +132,7 @@
 
   &__img--musica {
     border-color: #f5a01f;
-    width: 500px;
-    height: 500px;
+    @include sizes(500px, 500px);
   }
 
   &--juegos {

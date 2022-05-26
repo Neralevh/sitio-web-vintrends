@@ -13,16 +13,14 @@
   }
 
   &__imagen {
-    width: 550px;
-    height: 400px;
+    @include sizes(550px, 400px);
     border-radius: 100px;
   }
 
   &__parrafo {
+    @include sizes(600px, 300px);
     font-size: 25px;
     color: white;
-    width: 600px;
-    height: 300px;
     font-weight: 400;
     text-align: center;
     border: 5px solid $celestito;
@@ -33,12 +31,11 @@
     align-self: center;
   }
   &--pelis {
+    @extend .articuloInicio;
+    background-color: #287e9e;
     background-image: url(../images/cineFondo.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #287e9e;
-    margin: 5px;
-    border-radius: 5px;
   }
 
   &__parrafo--pelis {
@@ -54,13 +51,11 @@
   }
 
   &--musica {
+    @extend .articuloInicio;
     background-color: #b06977;
     background-image: url(../images/skulls.svg);
-    background-size: cover;
     display: flex;
     flex-direction: column;
-    margin: 5px;
-    border-radius: 5px;
   }
 
   &__titulo--musica {
@@ -69,16 +64,16 @@
   }
 
   &__parrafo--musica {
+    @include sizes(700px, 300px);
     color: white;
     text-shadow: 2px 2px 0 #433d31;
     font-weight: 400;
     backdrop-filter: blur(10px);
-    width: 700px;
     margin: 2rem;
-    height: 300px;
   }
 
   &--juegos {
+    @extend .articuloInicio;
     background-image: url(../images/gaming.svg);
     background-size: contain;
   }
@@ -89,12 +84,11 @@
   }
 
   &__parrafo--juegos {
+    @include sizes(600px, 350px);
     color: #ffe349;
     text-shadow: 2px 3px 0 #d05333;
     font-weight: 400;
-    width: 600px;
     right: 500px;
     top: 0px;
-    height: 350px;
   }
 }
