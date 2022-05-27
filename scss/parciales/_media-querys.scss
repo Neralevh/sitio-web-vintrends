@@ -119,12 +119,13 @@
 
     &__parrafo {
       font-size: 12px;
-      min-width: 280px;
+      width: 280px;
       -webkit-text-stroke: 0.5px $negro;
       text-align: justify;
       margin-top: 10px;
-      margin-right: 10px;
       margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     &__imagen {
@@ -535,5 +536,6 @@
 
   .accordion {
     margin: 2px 2px;
+    padding-bottom: 20px;
   }
 }

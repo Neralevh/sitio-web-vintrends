@@ -19,13 +19,15 @@
   }
 
   &__parrafo {
+    width: 1400px;
     font-size: 25px;
     color: $celestito;
-    margin-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2rem;
-    text-align: start;
-    min-height: 100px;
-    -webkit-text-stroke: 0.7px $negro;
+    -webkit-text-stroke: 1px $negro;
+    text-align: justify;
+    margin-bottom: 2rem;
   }
   &__imagen {
     width: 474px;
