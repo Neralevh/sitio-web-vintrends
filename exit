@@ -1,0 +1,28 @@
+[33ma61f14b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Correcion de secciones, animacion agregada al body en index
+[33me388466[m[33m ([m[1;31morigin/master[m[33m)[m Adicion del mapa de sitio
+[33m3c27c1d[m Agregado de mixin, extend, y tambien un map. Agregado de archivo de optimizaciones correspondientes a seo
+[33m776948d[m[33m ([m[1;32mentorno-de-pruebas[m[33m)[m Adicion de variables y reemplazadas en el codigo
+[33m6b2fd00[m Anidacion completada y uso de simbolo de ampersand
+[33mcf6796a[m importacion de parciales correcto y compilando
+[33mc1e4721[m Creacion de parciales, con error de compilacion a solucionar
+[33meadd609[m creacion carpeta y pagina para scss
+[33ma018440[m Vinculacion de hoja de animaciones, y agregado de animaciones varias a las paginas del sitio
+[33m208b0d2[m Correcion de imagen inicio en index
+[33m1260b8a[m[33m ([m[1;31morigin/entorno-de-pruebas[m[33m)[m Modificacion de la pagina Videojuegos, agregado de acordeon bootstrap
+[33madd61bf[m Modificacion de pagina moda con acordeon de bootstrap
+[33m4b0c280[m pagina peliculas modificada con agregado de acordion de bootstrap
+[33m9a0d2f7[m adicion de acordion con bootstrap finalizado y customizado
+[33mc87dffc[m Reemplazo de seccion Musica por acordeon de bootstrap
+[33mf79fc6e[m cambios en las imagenes de seccion2 agregando bootstrap
+[33m14aaded[m agregando separaciones de fotos con bootstrap en index
+[33mac8c44c[m arreglos en el codigo
+[33m9f767d8[m correcion de label en css
+[33me60e8bc[m correccion de html en pagina videojuegos
+[33m3cbbfa9[m arreglos en el codigo despues de linkear bootstrap
+[33m848814e[m Insercion de link de bootstrap a todas las paginas
+[33m0264e1f[m correccion de posicionamiento del link css
+[33m4688e6d[m correccion de posicionamiento del link css
+[33mb2b28a9[m adicion de bootstrap a pagina contacto
+[33m40590e3[m correccion de modificaciones por defecto de boootstrap en index
+[33m45c70c5[m Vinculacion de bootstrap al proyecto
+[33m0104b23[m Primera version del commit
