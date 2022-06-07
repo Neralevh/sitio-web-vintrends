@@ -20,8 +20,8 @@
   padding-left: 20px;
   padding-right: 20px;
   font-size: 16px;
-  color: white;
-  text-shadow: 1px 4px 0 #d44ab8;
+  color: $fucsia;
+  text-shadow: 1px 2px 0 $negro;
 }
 
 .linea {
@@ -59,11 +59,13 @@
 }
 
 label {
+  color: $negro;
   text-shadow: 1px 0.7px 0 #d44ab8;
 }
 
 .subtexto {
-  text-shadow: 1px 2px 0 #d44ab8;
+  text-shadow: 1px 1px 0 $negro;
+  text-align: center;
 }
 
 .boton {

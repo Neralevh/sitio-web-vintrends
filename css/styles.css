@@ -37,6 +37,15 @@ a:visited {
   color: #dff614;
 }
 
+a:hover {
+  color: #fdec6e;
+  text-shadow: 0px 0px 10px #e10086;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
 .aC {
   text-align: center;
   color: #dff614;
@@ -113,7 +122,7 @@ a:visited {
 
 .nav__enlace {
   text-decoration: none;
-  color: #e10086;
+  color: #fdfb76;
   -webkit-text-stroke: 1px #000000;
 }
 
@@ -197,11 +206,12 @@ a:visited {
 .seccion2__parrafo {
   width: 1400px;
   font-size: 25px;
-  color: #90dcff;
+  font-weight: 400;
+  color: #000000;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
-  -webkit-text-stroke: 1px #000000;
+  -webkit-text-stroke: 0.2px #90dcff;
   text-align: justify;
   margin-bottom: 2rem;
 }
@@ -394,7 +404,7 @@ a:visited {
 }
 
 .articuloInicio__titulo--pelis {
-  color: #00db96;
+  color: #fdfb76;
   -webkit-text-stroke: 2px #000000;
 }
 
@@ -426,18 +436,19 @@ a:visited {
 }
 
 .articuloInicio__titulo--juegos {
-  color: #000000;
+  color: #fdfb76;
   -webkit-text-stroke: 1px #e10086;
 }
 
 .articuloInicio__parrafo--juegos {
   height: 350px;
-  width: 600px;
-  color: #ffe349;
-  text-shadow: 2px 3px 0 #d05333;
+  width: 630px;
+  color: #fdfb76;
+  -webkit-text-stroke: 0.5px #e10086;
   font-weight: 400;
   right: 500px;
   top: 0px;
+  backdrop-filter: blur(10px);
 }
 
 .articuloPrincipal {
@@ -454,6 +465,8 @@ a:visited {
   font-size: 40px;
   padding-top: 100px;
   padding-left: 10px;
+  color: #fdfb76;
+  -webkit-text-stroke: 1px #000000;
 }
 
 .articuloPrincipal__subtitulo {
@@ -481,7 +494,7 @@ a:visited {
   margin-left: 20px;
   color: #fdfb76;
   text-shadow: 2px 2px 0 #e10086;
-  background-color: #90dcff;
+  background-color: #33215d;
   font-weight: 400;
   -webkit-text-stroke: 1px #000000;
   padding: 10px;
@@ -531,8 +544,8 @@ a:visited {
 }
 
 .articuloPrincipal__subtitulo--peli {
-  color: whitesmoke;
-  text-shadow: 4px 3px 0 #f18d9a;
+  color: #000000;
+  text-shadow: 2px 2px 0 #e10086;
 }
 
 .articuloPrincipal__iframe {
@@ -542,9 +555,9 @@ a:visited {
 
 .articuloPrincipal__parrafo--peli {
   background-color: #fdfb76;
-  color: whitesmoke;
+  color: #000000;
   text-shadow: 2px 2px 0 #f18d9a;
-  font-weight: 400;
+  font-weight: 200;
   -webkit-text-stroke: 1px black;
   padding: 10px;
   border-radius: 12px;
@@ -572,13 +585,13 @@ a:visited {
 
 .articuloPrincipal__subtitulo--musica {
   color: #f18d9a;
-  text-shadow: 2px 4px 0 #000000;
+  text-shadow: 2px 2px 0 #000000;
 }
 
 .articuloPrincipal__parrafo--musica {
-  background-color: #f5a01f;
-  color: #3d6bbc;
-  text-shadow: 2px 2px 0 #fdfc01;
+  background-color: #f18d9a;
+  color: #000000;
+  -webkit-text-stroke: 0.5px #e10086;
 }
 
 .articuloPrincipal__img--musica {
@@ -595,11 +608,11 @@ a:visited {
 }
 
 .articuloPrincipal__titulo--juegos {
-  font-size: 40px;
+  font-size: 42px;
   margin-left: 2rem;
   padding-top: 40px;
-  color: #e34121;
-  text-shadow: 2px 3px 0 #eadf13;
+  color: #eadf13;
+  text-shadow: 2px 3px 0 #e34121;
 }
 
 .articuloPrincipal__parrafo--juegos {
@@ -607,10 +620,10 @@ a:visited {
   color: #eadf13;
   text-shadow: 2px 3px 0 #e34121;
   font-size: 25px;
-  background-color: #fd76e674;
+  background-color: #000000c3;
+  border-radius: 20px;
   box-shadow: 10px 15px 9px -1px rgba(0, 0, 0, 0.75);
   max-width: 1500px;
-  border-radius: 34px 34px 34px 34px / 30px 30px 30px 30px;
   text-align: center;
 }
 
@@ -631,7 +644,7 @@ a:visited {
 
 .articuloJuegos__parrafo {
   width: 1500px;
-  font-size: 22px;
+  font-size: 26px;
   color: #eadf13;
   text-shadow: 2px 2px 0 #e34121;
   background-color: #6a1d5b;
@@ -682,8 +695,8 @@ a:visited {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 16px;
-  color: white;
-  text-shadow: 1px 4px 0 #d44ab8;
+  color: #f18d9a;
+  text-shadow: 1px 2px 0 #000000;
 }
 
 .linea {
@@ -721,11 +734,13 @@ a:visited {
 }
 
 label {
+  color: #000000;
   text-shadow: 1px 0.7px 0 #d44ab8;
 }
 
 .subtexto {
-  text-shadow: 1px 2px 0 #d44ab8;
+  text-shadow: 1px 1px 0 #000000;
+  text-align: center;
 }
 
 .boton {
@@ -999,21 +1014,25 @@ label {
     width: 15px;
     height: 15px;
     margin-left: 1px;
+    margin-bottom: 3px;
   }
   .icono__musica {
     width: 15px;
     height: 15px;
     margin-left: 1px;
+    padding-bottom: 3px;
   }
   .icono__peliculas {
     width: 15px;
     height: 15px;
     margin-left: 1px;
+    margin-bottom: 3px;
   }
   .icono__videojuegos {
     width: 15px;
     height: 15px;
     margin-left: 1px;
+    margin-bottom: 4px;
   }
   .newsletter {
     font-size: 10px;
@@ -1118,9 +1137,9 @@ label {
     height: 160px;
   }
   .articuloInicio__parrafo--juegos {
-    font-size: 12px;
+    font-size: 13px;
     width: 300px;
-    margin-right: 8px;
+    text-shadow: 1px 1px 0 #49297e;
   }
   .articuloInicio--musica {
     background-size: contain;
@@ -1133,9 +1152,15 @@ label {
   .articuloPrincipal__titulo {
     font-size: 20px;
     padding-top: 20px;
+    text-shadow: 1px 1px 0 #e10086;
+    padding-left: 0;
+    margin-left: 5px;
   }
   .articuloPrincipal__subtitulo {
     font-size: 15px;
+  }
+  .articuloPrincipal__subtitulo--peli {
+    text-shadow: 1px 1px 0 #e10086;
   }
   .articuloPrincipal__img {
     width: 250px;
@@ -1146,9 +1171,10 @@ label {
     width: 300px;
     margin-left: 5px;
     margin-top: 5px;
-    font-size: 12.5px;
+    font-size: 14px;
     -webkit-text-stroke: 0.4px #000000;
     text-shadow: 1px 1px 0 #e10086;
+    text-align: justify;
   }
   .articuloPrincipal__img--2 {
     width: 140px;
@@ -1170,12 +1196,14 @@ label {
     height: 190px;
   }
   .articuloPrincipal__titulo--juegos {
-    font-size: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 0 #e34121;
   }
   .articuloPrincipal__parrafo--juegos {
-    margin-left: 5px;
     font-size: 14px;
-    min-width: 300px;
+    text-shadow: 1px 1px 0 #e34121;
+    margin-right: 10px;
+    box-shadow: none;
   }
   .articuloPrincipal--musica {
     min-height: 600px;
@@ -1247,9 +1275,10 @@ label {
     font-size: 12px;
     margin: 0;
     width: 300px;
-    box-shadow: -2px 5px 5px 5px RGB(0 0 0/75%);
-    margin-left: -3px;
+    box-shadow: -1px 2px 2px 2px RGB(0 0 0/75%);
+    margin-left: -10px;
     text-align: justify;
+    text-shadow: 1px 1px 0 #e34121;
   }
   .flexImg__1, .flexImg__2 {
     width: 155px;

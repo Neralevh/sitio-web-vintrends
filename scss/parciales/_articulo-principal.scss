@@ -11,6 +11,8 @@
     font-size: 40px;
     padding-top: 100px;
     padding-left: 10px;
+    color: $amarillo1;
+    -webkit-text-stroke: 1px $negro;
   }
 
   &__subtitulo {
@@ -37,7 +39,7 @@
     margin-left: 20px;
     color: $amarillo1;
     text-shadow: 2px 2px 0 $rositaChicle;
-    background-color: $celestito;
+    background-color: #33215d;
     font-weight: 400;
     -webkit-text-stroke: 1px $negro;
     padding: 10px;
@@ -80,8 +82,8 @@
   }
 
   &__subtitulo--peli {
-    color: whitesmoke;
-    text-shadow: 4px 3px 0 $fucsia;
+    color: $negro;
+    text-shadow: 2px 2px 0 $rositaChicle;
   }
 
   &__iframe {
@@ -91,9 +93,9 @@
 
   &__parrafo--peli {
     background-color: $amarillo1;
-    color: whitesmoke;
+    color: $negro;
     text-shadow: 2px 2px 0 $fucsia;
-    font-weight: 400;
+    font-weight: 200;
     -webkit-text-stroke: 1px black;
     padding: 10px;
     border-radius: 12px;
@@ -121,13 +123,13 @@
 
   &__subtitulo--musica {
     color: $fucsia;
-    text-shadow: 2px 4px 0 $negro;
+    text-shadow: 2px 2px 0 $negro;
   }
 
   &__parrafo--musica {
-    background-color: #f5a01f;
-    color: #3d6bbc;
-    text-shadow: 2px 2px 0 #fdfc01;
+    background-color: $fucsia;
+    color: $negro;
+    -webkit-text-stroke: 0.5px $rositaChicle;
   }
 
   &__img--musica {
@@ -143,11 +145,11 @@
   }
 
   &__titulo--juegos {
-    font-size: 40px;
+    font-size: 42px;
     margin-left: 2rem;
     padding-top: 40px;
-    color: #e34121;
-    text-shadow: 2px 3px 0 #eadf13;
+    color: #eadf13;
+    text-shadow: 2px 3px 0 #e34121;
   }
 
   &__parrafo--juegos {
@@ -155,10 +157,10 @@
     color: #eadf13;
     text-shadow: 2px 3px 0 #e34121;
     font-size: 25px;
-    background-color: #fd76e674;
+    background-color: #000000c3;
+    border-radius: 20px;
     box-shadow: 10px 15px 9px -1px rgba(0, 0, 0, 0.75);
     max-width: 1500px;
-    border-radius: 34px 34px 34px 34px / 30px 30px 30px 30px;
     text-align: center;
   }
 }

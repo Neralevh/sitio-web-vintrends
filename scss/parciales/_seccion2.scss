@@ -21,11 +21,12 @@
   &__parrafo {
     width: 1400px;
     font-size: 25px;
-    color: $celestito;
+    font-weight: 400;
+    color: $negro;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
-    -webkit-text-stroke: 1px $negro;
+    -webkit-text-stroke: 0.2px $celestito;
     text-align: justify;
     margin-bottom: 2rem;
   }

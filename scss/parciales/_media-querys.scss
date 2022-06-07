@@ -211,24 +211,28 @@
     width: 15px;
     height: 15px;
     margin-left: 1px;
+    margin-bottom: 3px;
   }
 
   .icono__musica {
     width: 15px;
     height: 15px;
     margin-left: 1px;
+    padding-bottom: 3px;
   }
 
   .icono__peliculas {
     width: 15px;
     height: 15px;
     margin-left: 1px;
+    margin-bottom: 3px;
   }
 
   .icono__videojuegos {
     width: 15px;
     height: 15px;
     margin-left: 1px;
+    margin-bottom: 4px;
   }
 
   .newsletter {
@@ -354,9 +358,9 @@
     }
 
     &__parrafo--juegos {
-      font-size: 12px;
+      font-size: 13px;
       width: 300px;
-      margin-right: 8px;
+      text-shadow: 1px 1px 0 #49297e;
     }
 
     &--musica {
@@ -372,10 +376,17 @@
     &__titulo {
       font-size: 20px;
       padding-top: 20px;
+      text-shadow: 1px 1px 0 #e10086;
+      padding-left: 0;
+      margin-left: 5px;
     }
 
     &__subtitulo {
       font-size: 15px;
+    }
+
+    &__subtitulo--peli {
+      text-shadow: 1px 1px 0 #e10086;
     }
 
     &__img {
@@ -388,9 +399,10 @@
       width: 300px;
       margin-left: 5px;
       margin-top: 5px;
-      font-size: 12.5px;
+      font-size: 14px;
       -webkit-text-stroke: 0.4px $negro;
       text-shadow: 1px 1px 0 $rositaChicle;
+      text-align: justify;
     }
 
     &__img--2 {
@@ -418,13 +430,15 @@
     }
 
     &__titulo--juegos {
-      font-size: 20px;
+      font-size: 25px;
+      text-shadow: 2px 2px 0 #e34121;
     }
 
     &__parrafo--juegos {
-      margin-left: 5px;
       font-size: 14px;
-      min-width: 300px;
+      text-shadow: 1px 1px 0 #e34121;
+      margin-right: 10px;
+      box-shadow: none;
     }
 
     &--musica {
@@ -511,9 +525,10 @@
       font-size: 12px;
       margin: 0;
       width: 300px;
-      box-shadow: -2px 5px 5px 5px RGB(0 0 0 / 75%);
-      margin-left: -3px;
+      box-shadow: -1px 2px 2px 2px RGB(0 0 0 / 75%);
+      margin-left: -10px;
       text-align: justify;
+      text-shadow: 1px 1px 0 #e34121;
     }
   }
 

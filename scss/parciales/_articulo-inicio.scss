@@ -46,7 +46,7 @@
   }
 
   &__titulo--pelis {
-    color: #00db96;
+    color: $amarillo1;
     -webkit-text-stroke: 2px $negro;
   }
 
@@ -79,16 +79,17 @@
   }
 
   &__titulo--juegos {
-    color: $negro;
+    color: $amarillo1;
     -webkit-text-stroke: 1px $rositaChicle;
   }
 
   &__parrafo--juegos {
-    @include sizes(600px, 350px);
-    color: #ffe349;
-    text-shadow: 2px 3px 0 #d05333;
+    @include sizes(630px, 350px);
+    color: $amarillo1;
+    -webkit-text-stroke: 0.5px $rositaChicle;
     font-weight: 400;
     right: 500px;
     top: 0px;
+    backdrop-filter: blur(10px);
   }
 }
