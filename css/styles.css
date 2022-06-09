@@ -366,6 +366,8 @@ a:hover {
   padding-top: 20px;
   text-decoration: underline;
   text-align: center;
+  color: #f18d9a;
+  -webkit-text-stroke: 2px #000000;
 }
 
 .articuloInicio__imagen {
@@ -398,13 +400,13 @@ a:hover {
 
 .articuloInicio__parrafo--pelis {
   color: #fdfb76;
-  text-shadow: 2px 2px 0 #49297e;
+  text-shadow: 1px 1px 0 #000000;
   font-weight: 400;
   backdrop-filter: blur(10px);
 }
 
 .articuloInicio__titulo--pelis {
-  color: #fdfb76;
+  color: orangered;
   -webkit-text-stroke: 2px #000000;
 }
 
@@ -493,12 +495,16 @@ a:hover {
   align-self: center;
   margin-left: 20px;
   color: #fdfb76;
-  text-shadow: 2px 2px 0 #e10086;
+  text-shadow: 2px 2px 0 #fdfb76;
   background-color: #33215d;
   font-weight: 400;
   -webkit-text-stroke: 1px #000000;
   padding: 10px;
   border-radius: 12px;
+}
+
+.articuloPrincipal__parrafo--moda {
+  text-shadow: 2px 2px 0 #e10086;
 }
 
 .articuloPrincipal__img--2 {
@@ -651,7 +657,8 @@ a:hover {
   padding: 1rem;
   box-shadow: 20px 10px 20px -1px rgba(0, 0, 0, 0.75);
   border-radius: 12px;
-  margin-left: 200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 3rem;
 }
 
@@ -739,8 +746,10 @@ label {
 }
 
 .subtexto {
-  text-shadow: 1px 1px 0 #000000;
+  text-shadow: 1px 1px 0 #ff84c5;
   text-align: center;
+  font-size: 13px;
+  color: black;
 }
 
 .boton {
@@ -1017,9 +1026,9 @@ label {
     margin-bottom: 3px;
   }
   .icono__musica {
-    width: 15px;
+    width: 14px;
     height: 15px;
-    margin-left: 1px;
+    margin-left: 2px;
     padding-bottom: 3px;
   }
   .icono__peliculas {
@@ -1029,9 +1038,9 @@ label {
     margin-bottom: 3px;
   }
   .icono__videojuegos {
-    width: 15px;
-    height: 15px;
-    margin-left: 1px;
+    width: 13px;
+    height: 13px;
+    margin-left: 2px;
     margin-bottom: 4px;
   }
   .newsletter {
@@ -1110,7 +1119,10 @@ label {
   }
   .articuloInicio__titulo {
     font-size: 35px;
-    text-shadow: 1px 1px 0 #d44ab8;
+    -webkit-text-stroke: 1px #000000;
+  }
+  .articuloInicio__titulo--pelis {
+    -webkit-text-stroke: 1px #000000;
   }
   .articuloInicio__imagen {
     width: 70%;
@@ -1150,11 +1162,12 @@ label {
     min-height: 600px;
   }
   .articuloPrincipal__titulo {
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 20px;
-    text-shadow: 1px 1px 0 #e10086;
+    text-shadow: 2px 2px 0 whitesmoke;
     padding-left: 0;
     margin-left: 5px;
+    color: orangered;
   }
   .articuloPrincipal__subtitulo {
     font-size: 15px;
@@ -1173,8 +1186,16 @@ label {
     margin-top: 5px;
     font-size: 14px;
     -webkit-text-stroke: 0.4px #000000;
-    text-shadow: 1px 1px 0 #e10086;
+    text-shadow: -1px 0px 0 #fdfb76;
     text-align: justify;
+    box-shadow: -4px 6px 4px -1px RGB(0 0 0/75%);
+  }
+  .articuloPrincipal__parrafo--moda {
+    text-shadow: -1px 0px 0 #e10086;
+  }
+  .articuloPrincipal__parrafo--peli {
+    box-shadow: -4px 6px 4px -1px RGB(0 0 0/75%);
+    text-shadow: -1px 0px 0 #e10086;
   }
   .articuloPrincipal__img--2 {
     width: 140px;
@@ -1187,6 +1208,7 @@ label {
     width: 190px;
   }
   .articuloPrincipal__iframe {
+    margin-top: 30px;
     width: 300px;
     margin-left: -10px;
     border-radius: 12px;
@@ -1197,11 +1219,11 @@ label {
   }
   .articuloPrincipal__titulo--juegos {
     font-size: 25px;
-    text-shadow: 2px 2px 0 #e34121;
+    text-shadow: 2px 2px 0 orangered;
   }
   .articuloPrincipal__parrafo--juegos {
     font-size: 14px;
-    text-shadow: 1px 1px 0 #e34121;
+    text-shadow: 1px 1px 0 orangered;
     margin-right: 10px;
     box-shadow: none;
   }
@@ -1210,7 +1232,7 @@ label {
   }
   .articuloPrincipal__subtitulo--musica {
     color: #f18d9a;
-    text-shadow: 2px 2px 0 #000000;
+    text-shadow: 1px 1px 0 #000000;
   }
   .articuloPrincipal__titulo--musica {
     text-shadow: 2px 2px 0 #000000;
@@ -1218,6 +1240,7 @@ label {
   }
   .articuloPrincipal--peli {
     min-height: 600px;
+    margin: 2px;
   }
   .flexModa {
     flex-direction: column;
@@ -1273,10 +1296,8 @@ label {
   }
   .articuloJuegos__parrafo {
     font-size: 12px;
-    margin: 0;
-    width: 300px;
+    width: 280px;
     box-shadow: -1px 2px 2px 2px RGB(0 0 0/75%);
-    margin-left: -10px;
     text-align: justify;
     text-shadow: 1px 1px 0 #e34121;
   }

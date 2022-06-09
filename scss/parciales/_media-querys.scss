@@ -215,9 +215,9 @@
   }
 
   .icono__musica {
-    width: 15px;
+    width: 14px;
     height: 15px;
-    margin-left: 1px;
+    margin-left: 2px;
     padding-bottom: 3px;
   }
 
@@ -229,9 +229,9 @@
   }
 
   .icono__videojuegos {
-    width: 15px;
-    height: 15px;
-    margin-left: 1px;
+    width: 13px;
+    height: 13px;
+    margin-left: 2px;
     margin-bottom: 4px;
   }
 
@@ -325,7 +325,11 @@
 
     &__titulo {
       font-size: 35px;
-      text-shadow: 1px 1px 0 #d44ab8;
+      -webkit-text-stroke: 1px $negro;
+    }
+
+    &__titulo--pelis {
+      -webkit-text-stroke: 1px $negro;
     }
 
     &__imagen {
@@ -374,11 +378,12 @@
     min-height: 600px;
 
     &__titulo {
-      font-size: 20px;
+      font-size: 22px;
       padding-top: 20px;
-      text-shadow: 1px 1px 0 #e10086;
+      text-shadow: 2px 2px 0 whitesmoke;
       padding-left: 0;
       margin-left: 5px;
+      color: $naranja;
     }
 
     &__subtitulo {
@@ -386,7 +391,7 @@
     }
 
     &__subtitulo--peli {
-      text-shadow: 1px 1px 0 #e10086;
+      text-shadow: 1px 1px 0 $rositaChicle;
     }
 
     &__img {
@@ -401,8 +406,18 @@
       margin-top: 5px;
       font-size: 14px;
       -webkit-text-stroke: 0.4px $negro;
-      text-shadow: 1px 1px 0 $rositaChicle;
+      text-shadow: -1px 0px 0 $amarillo1;
       text-align: justify;
+      box-shadow: -4px 6px 4px -1px RGB(0 0 0 / 75%);
+    }
+
+    &__parrafo--moda {
+      text-shadow: -1px 0px 0 $rositaChicle;
+    }
+
+    &__parrafo--peli {
+      box-shadow: -4px 6px 4px -1px RGB(0 0 0 / 75%);
+      text-shadow: -1px 0px 0 $rositaChicle;
     }
 
     &__img--2 {
@@ -419,6 +434,7 @@
     }
 
     &__iframe {
+      margin-top: 30px;
       width: 300px;
       margin-left: -10px;
       border-radius: 12px;
@@ -431,12 +447,12 @@
 
     &__titulo--juegos {
       font-size: 25px;
-      text-shadow: 2px 2px 0 #e34121;
+      text-shadow: 2px 2px 0 $naranja;
     }
 
     &__parrafo--juegos {
       font-size: 14px;
-      text-shadow: 1px 1px 0 #e34121;
+      text-shadow: 1px 1px 0 $naranja;
       margin-right: 10px;
       box-shadow: none;
     }
@@ -447,7 +463,7 @@
 
     &__subtitulo--musica {
       color: $fucsia;
-      text-shadow: 2px 2px 0 $negro;
+      text-shadow: 1px 1px 0 $negro;
     }
 
     &__titulo--musica {
@@ -457,6 +473,7 @@
 
     &--peli {
       min-height: 600px;
+      margin: 2px;
     }
   }
 
@@ -523,10 +540,8 @@
 
     &__parrafo {
       font-size: 12px;
-      margin: 0;
-      width: 300px;
+      width: 280px;
       box-shadow: -1px 2px 2px 2px RGB(0 0 0 / 75%);
-      margin-left: -10px;
       text-align: justify;
       text-shadow: 1px 1px 0 #e34121;
     }

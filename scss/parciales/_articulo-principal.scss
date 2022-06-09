@@ -38,12 +38,16 @@
     align-self: center;
     margin-left: 20px;
     color: $amarillo1;
-    text-shadow: 2px 2px 0 $rositaChicle;
+    text-shadow: 2px 2px 0 $amarillo1;
     background-color: #33215d;
     font-weight: 400;
     -webkit-text-stroke: 1px $negro;
     padding: 10px;
     border-radius: 12px;
+  }
+
+  &__parrafo--moda {
+    text-shadow: 2px 2px 0 $rositaChicle;
   }
 
   &__img--2 {
