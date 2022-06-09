@@ -355,6 +355,7 @@
 
     &__titulo--juegos {
       font-size: 30px;
+      -webkit-text-stroke: 1px $rositaChicle;
     }
 
     &__imagen {
@@ -384,6 +385,12 @@
       padding-left: 0;
       margin-left: 5px;
       color: $naranja;
+    }
+
+    &__titulo--moda {
+      color: $amarillo1;
+      text-shadow: 1px 2px 0 $rositaChicle;
+      -webkit-text-stroke: 0px;
     }
 
     &__subtitulo {
@@ -469,6 +476,8 @@
     &__titulo--musica {
       text-shadow: 2px 2px 0 $negro;
       padding-top: 20px;
+      color: $fucsia;
+      text-shadow: 1px 1px 0 $negro;
     }
 
     &--peli {

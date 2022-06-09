@@ -1,9 +1,7 @@
 .articuloPrincipal {
   background-image: url(../images/fondoModa2.svg);
   background-size: cover;
-  color: $amarillo1;
   min-height: 1300px;
-  text-shadow: 2px 2px 0 $rositaChicle;
   margin: 5px;
   border-radius: 5px;
 
@@ -11,8 +9,14 @@
     font-size: 40px;
     padding-top: 100px;
     padding-left: 10px;
-    color: $amarillo1;
     -webkit-text-stroke: 1px $negro;
+    text-shadow: 4px 4px 0 whitesmoke;
+    color: $naranja;
+  }
+
+  &__titulo--moda {
+    color: $amarillo1;
+    text-shadow: 2px 2px 0 $rositaChicle;
   }
 
   &__subtitulo {

@@ -456,9 +456,7 @@ a:hover {
 .articuloPrincipal {
   background-image: url(../images/fondoModa2.svg);
   background-size: cover;
-  color: #fdfb76;
   min-height: 1300px;
-  text-shadow: 2px 2px 0 #e10086;
   margin: 5px;
   border-radius: 5px;
 }
@@ -467,8 +465,14 @@ a:hover {
   font-size: 40px;
   padding-top: 100px;
   padding-left: 10px;
-  color: #fdfb76;
   -webkit-text-stroke: 1px #000000;
+  text-shadow: 4px 4px 0 whitesmoke;
+  color: orangered;
+}
+
+.articuloPrincipal__titulo--moda {
+  color: #fdfb76;
+  text-shadow: 2px 2px 0 #e10086;
 }
 
 .articuloPrincipal__subtitulo {
@@ -1144,6 +1148,7 @@ label {
   }
   .articuloInicio__titulo--juegos {
     font-size: 30px;
+    -webkit-text-stroke: 1px #e10086;
   }
   .articuloInicio__imagen {
     height: 160px;
@@ -1168,6 +1173,11 @@ label {
     padding-left: 0;
     margin-left: 5px;
     color: orangered;
+  }
+  .articuloPrincipal__titulo--moda {
+    color: #fdfb76;
+    text-shadow: 1px 2px 0 #e10086;
+    -webkit-text-stroke: 0px;
   }
   .articuloPrincipal__subtitulo {
     font-size: 15px;
@@ -1237,6 +1247,8 @@ label {
   .articuloPrincipal__titulo--musica {
     text-shadow: 2px 2px 0 #000000;
     padding-top: 20px;
+    color: #f18d9a;
+    text-shadow: 1px 1px 0 #000000;
   }
   .articuloPrincipal--peli {
     min-height: 600px;
